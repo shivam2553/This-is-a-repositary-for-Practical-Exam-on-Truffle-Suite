@@ -1,0 +1,73 @@
+1) What is Truffle?
+2) What is Ganache?
+3) Demonstrate the installation process of Truffle suite and display
+the current version of Truffle installed in your computer.
+4) Demonstrate the process of unboxing the metacoin project and briefly explore the project structure by explaining the items.
+
+Answers:
+______________________________________________________________________________________________________________________
+
+1) *Truffle is a world class development environment,asset pipeline and testing framework of the Truffle Suite ecosystem.
+   
+   *Truffle is a hugely popular development framework among developers for Ethereum dApp development and there is a large community behind the tool.
+   
+   *Truffle uses EVM as a basis.
+   
+   *It makes the development of smart contract and dApp more accessible and manageable.
+
+
+Asset Pipeline provides a framework to concatenate and minify or compress javascript and css asset.
+
+
+2) --> Ganache is a tool to set up our own local Ethereum Blockchain that we can use to deploy and test our smart contracts/dApp before launching them on           
+authentic blockchain.
+   -->Ganache allows us to set up a local ethereum blockchain to test our dApps in a safe environment.
+   -->Ganache helps developers to save time and space, and to avoid paying unneccesary gas fees.
+
+3) To demonstrate the installation process of the truffle suite,Follow the steps below-
+   
+   Step 1--> Prerequisites- Before istalling truffle,make sure you have node.js and npm installed in your system
+
+   Step 2--> Installing Truffle- To install Truffle,open your terminal or command prompt and run the following command
+   
+   npm install -g truffle
+ 
+   Step 3--> Verify Truffle installation by running the following  command- 
+
+              truffle version
+
+   the output will generate the current version of truffle on your system. 
+________________________________
+C:\Users\Shivam>truffle version
+Truffle v5.10.2 (core: 5.10.2)
+Ganache v7.8.0
+Solidity v0.5.16 (solc-js)
+Node v18.16.0
+Web3.js v1.10.0
+________________________________
+
+
+4) To demonstrate the process of unboxing the metacoin project,Follow the steps below-
+
+   Step 1--> Crete a new directory for your Truffle project using Command Prompt.
+             mkdir MetaCoin
+             cd MetaCoin
+ 
+   Step 2--> Download (unbox) the MetaCoin box.
+         
+             truffle unbox metacoin 
+
+  
+Once this operation is completed,then we will now have a project structure with the following items-
+
+ **contracts/ : Directory for solidity contract.
+
+ **migration/ : Directory for scriptable deployment files.
+
+ **test/ : Directory for test files for testing your dApp and contracts.
+
+ **truffle-config.js : Truffle configuration file,for setting n/w information and other project-related settings.
+
+
+  
+   
